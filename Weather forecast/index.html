@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+<div class="app">
+    <div class="container">
+        <div class="searchbox">
+        <input type="text" placeholder="Enter your location" class="inputbox">
+        <button class="fa-sharp fa-solid fa-magnifying-glass" id="btn"></button>
+
+    </div>
+    </div>
+    <div class="notfound">
+        <h1>sorry,location not found</h1>
+        <img src="not.jpg" alt="not found">
+    </div>
+    <div class="weatherbody">
+        <img src="globe.jpg" alt="weather image" class="weatherimg" >
+   
+        <div class="weatherbox">
+            <p class="temp">0<sup>°C </sup></p>
+            <p class="description">today weather</p>
+            
+        </div>
+        <div class ="details">
+            <div class="humidity">
+                <i class ="fa-sharp fa-solid fa-droplet"></i>
+                <div class="text">
+                    <samp id="humidity">0%</samp>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class ="fa-sharp fa-solid fa-wind"></i>
+                <div class="speed">
+                    <samp>0km/Hr</samp>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
